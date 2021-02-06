@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">B.A Uowm</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="app_name2">Ανακοινώσεις</string>
+    <string name="app_name3">Κατεύθυνση Διοίκησης Επιχειρήσεων</string>
+
+
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_programma_de">Κατεύθυνση Διοίκησης Επιχειρήσεων</string>
+    <string name="tab_text_1">Δευτερα</string>
+    <string name="tab_text_2">Τριτη</string>
+    <string name="tab_text_3">Τεταρτη</string>
+    <string name="tab_text_4">Πεμπτη</string>
+    <string name="tab_text_5">Παρασκευη</string>
+
+    <string name="title_activity_main2">Κατεύθυνση Διοίκησης Επιχειρήσεων</string>
+    <string name="title_activity_programma_dps">Πρόγραμμα Μαθημάτων</string>
+    <string name="title_activity_programma_dte">Πρόγραμμα Εξεταστικής</string>
+
+</resources>

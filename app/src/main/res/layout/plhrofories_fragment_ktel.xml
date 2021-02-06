@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ktelgrevenon"
+        android:drawableTop="@drawable/ktelgrevenon"
+        android:text="Ιστοσελίδα ΚΤΕΛ Γρεβενων"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.858">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="169dp"
+        android:gravity="center"
+        android:text="Το αστικό λεωφορείο ξεκινάει από τα ΚΤΕΛ και \nπραγματοποιεί 3 στάσεις. \n\n Στη διαδρομή της επιστροφής ακολουθούνται\n οι ίδιες στάσεις με αντίθετη σειρά. \n\n Η τιμή του εισιτηρίου ανέρχεται στα 0,6 ευρώ, ενώ υπάρχει και η δυνατότητα αγοράς μηνιαίας κάρτας απεριορίστων διαδρομών που ανέρχεται στα 20 ευρώ \n"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:autoSizeTextType="none"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:id="@+id/testphoto2"
+        android:layout_width="152dp"
+        android:layout_height="125dp"
+        android:drawableTop="@drawable/uowmlogo"
+        android:gravity="center"
+        android:text="Ιστοσελίδα προπτυχιακού"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046"
+        >
+
+    </TextView>
+    <TextView
+        android:id="@+id/testphoto"
+        android:layout_width="152dp"
+        android:layout_height="125dp"
+        android:drawableTop="@drawable/uowmlogo"
+        android:gravity="center"
+        android:text="Ιστοσελίδα Μεταπτυχιακού"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046">
+
+    </TextView>
+
+    <TextView
+
+        android:id="@+id/eclassintent"
+        android:layout_width="138dp"
+        android:layout_height="161dp"
+        android:drawableTop="@drawable/openeclass_128x128"
+        android:text="e Class"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.417"
+        >
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/eudoxusintent"
+        android:layout_width="138dp"
+        android:layout_height="173dp"
+        android:src="@drawable/logoeudoxus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.425">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/tautothtaintent"
+        android:layout_width="224dp"
+        android:layout_height="72dp"
+        android:src="@drawable/tautothta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.723">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/teionline"
+        android:layout_width="277dp"
+        android:layout_height="40dp"
+        android:src="@drawable/teionline"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.852">
+
+    </ImageView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

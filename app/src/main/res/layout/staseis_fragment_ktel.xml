@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Για να δείτε τις στάσεις στον χάρτη πατήστε επάνω στις παρακάτω φωτογραφίες\n"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="16sp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Αφετηρία"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="@color/red"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <ImageView
+        android:id="@+id/stash1"
+        android:layout_width="match_parent"
+        android:layout_height="304dp"
+        android:src="@drawable/stashktel">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/red"
+        android:text="Στάση #1"
+        android:textSize="22sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/stash2"
+        android:layout_width="match_parent"
+        android:layout_height="304dp"
+        android:src="@drawable/stashkibwtos">
+
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/red"
+        android:text="Στάση #2"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold">
+
+    </TextView>
+    <ImageView
+        android:id="@+id/stash3"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/stashdeh">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/red"
+        android:text="Στάση #3"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold">
+
+    </TextView>
+    <ImageView
+
+        android:id="@+id/stash4"
+        android:textColor="@color/red"
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        android:src="@drawable/stashlidl">
+
+    </ImageView>
+
+    </LinearLayout>
+
+
+</ScrollView>

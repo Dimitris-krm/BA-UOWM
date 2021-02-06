@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:text="Αναχώρηση\n από ΚΤΕΛ\n
+8:45\n
+9:45\n
+10:45\n
+11:45\n
+12:45\n
+13:45\n
+14:45\n
+15:45\n
+16:45\n
+17:45\n
+18:45\n
+19:45\n
+20:45\n"
+
+        android:textSize="22dp"
+        android:textStyle="bold"></TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:text="Αναχώρηση\n από AEI\n
+9:15\n
+10:15\n
+11:15\n
+12:15\n
+13:05\n
+14:15\n
+15:05\n
+16:15\n
+17:15\n
+18:15\n
+19:15\n
+20:15\n
+21:00\n"
+
+        android:textSize="22dp"
+        android:textStyle="bold"></TextView>
+
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

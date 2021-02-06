@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:text="Παρακάτω επιλέξτε όποια από τις εβδομάδες επιθυμείτε προκειμένου να δείτε το αντίστοιχο μενού τους"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        >
+    </TextView>
+    <ImageView
+        android:id="@+id/bdomada1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mera1"
+        android:visibility="invisible">
+    </ImageView>
+    <ImageView
+        android:id="@+id/bdomada2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mera2"
+        android:visibility="invisible">
+    </ImageView>
+    <ImageView
+        android:id="@+id/bdomada3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mera3"
+        android:visibility="invisible">
+    </ImageView>
+    <ImageView
+        android:id="@+id/bdomada4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mera4"
+        android:visibility="invisible">
+    </ImageView>
+
+
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/radioGroup"
+        android:layout_marginBottom="50dp">
+        <RadioButton
+            android:id="@+id/rbdomada1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1η Εβδομάδα" />
+
+        <RadioButton
+            android:id="@+id/rbdomada2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2η Εβδομάδα" />
+
+        <RadioButton
+            android:id="@+id/rbdomada3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3η Εβδομάδα" />
+
+        <RadioButton
+            android:id="@+id/rbdomada4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4η Εβδομάδα" />
+
+    </RadioGroup>
+</RelativeLayout>

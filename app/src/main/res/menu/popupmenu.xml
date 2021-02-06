@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/test1"
+        android:title="Ξυπνητήρι"/>
+    <item android:id="@+id/test2"
+        android:title="Google Calendar"/>
+
+</menu>
